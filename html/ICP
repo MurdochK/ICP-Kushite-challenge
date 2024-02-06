@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Credit Score App</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>Check Your Credit Score</h1>
+    <div id="user-input">
+        <label for="name">Name:</label>
+        <input type="text" id="name">
+        <label for="social-security-number">Social Security Number:</label>
+        <input type="text" id="social-security-number">
+        <button id="check-score">Check Score</button>
+    </div>
+    <div id="score-result"></div>
+    <script src="script.js"></script>
+</body>
+</html>
