@@ -1,0 +1,48 @@
+/* Basic styling for the app */
+/* Basic styles */
+body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 20px;
+  }
+  
+  h1 {
+    font-size: 2em;
+    margin-bottom: 20px;
+  }
+  
+  /* User input section */
+  #user-input {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  
+  label {
+    font-weight: bold;
+  }
+  
+  input[type="text"] {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  /* Score display */
+  #score-result {
+    font-size: 2.5em;
+    font-weight: bold;
+    text-align: center;
+  }
+  
+  /* ... and so on for other elements */
+  
